@@ -1,0 +1,570 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Integration of Clictill for WooCommerce\n"
+"POT-Creation-Date: 2019-11-19 02:01+0100\n"
+"PO-Revision-Date: 2019-11-19 02:00+0100\n"
+"Last-Translator: Carl Conrad <carl@koffeeware.com>\n"
+"Language-Team: Carl Conrad <carl@koffeeware.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.4\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: ct4woo.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: admin/woocommerce-settings-tab.php:18 admin/woocommerce-status-tab.php:16
+msgid "Clictill"
+msgstr ""
+
+#: admin/woocommerce-settings-tab.php:44
+msgid "WooCommerce API"
+msgstr ""
+
+#: admin/woocommerce-settings-tab.php:46
+msgid ""
+"The following WooCommerce keys are to be generated on the <a href=\"/wp-"
+"admin/admin.php?page=wc-settings&tab=advanced&section=keys\">API REST page</"
+"a>. Make sure to grant Read/Write access rights."
+msgstr ""
+
+#: admin/woocommerce-settings-tab.php:50 admin/woocommerce-settings-tab.php:53
+msgid "WooCommerce API consumer key"
+msgstr ""
+
+#: admin/woocommerce-settings-tab.php:57 admin/woocommerce-settings-tab.php:60
+msgid "WooCommerce API consumer secret"
+msgstr ""
+
+#: admin/woocommerce-settings-tab.php:110
+#: admin/woocommerce-settings-tab.php:125
+#: admin/woocommerce-settings-tab.php:130
+#: admin/woocommerce-settings-tab.php:135
+#: admin/woocommerce-settings-tab.php:138
+#: admin/woocommerce-settings-tab.php:300
+#: admin/woocommerce-settings-tab.php:344
+#: admin/woocommerce-settings-tab.php:441
+msgid "None"
+msgstr ""
+
+#: admin/woocommerce-settings-tab.php:115
+msgid ""
+"Vendor code as found on <a href=\"https://clic-till.com/paramApp/users"
+"\">this page</a>."
+msgstr ""
+
+#: admin/woocommerce-settings-tab.php:127
+#: admin/woocommerce-settings-tab.php:174
+#: admin/woocommerce-settings-tab.php:409
+msgid "Shop"
+msgstr ""
+
+#: admin/woocommerce-settings-tab.php:131
+#: admin/woocommerce-settings-tab.php:140
+msgid "Displaying the list of shops requires entering the shops token."
+msgstr ""
+
+#: admin/woocommerce-settings-tab.php:137
+msgid "Displaying the list of users requires entering the users token."
+msgstr ""
+
+#: admin/woocommerce-settings-tab.php:145
+msgid "Clictill user and shop"
+msgstr ""
+
+#: admin/woocommerce-settings-tab.php:147
+msgid "The following accounts are needed in order to synchronize orders."
+msgstr ""
+
+#: admin/woocommerce-settings-tab.php:152
+#: admin/woocommerce-settings-tab.php:155
+msgid "Users token"
+msgstr ""
+
+#: admin/woocommerce-settings-tab.php:159
+msgid "User"
+msgstr ""
+
+#: admin/woocommerce-settings-tab.php:167
+#: admin/woocommerce-settings-tab.php:170
+msgid "Shops token"
+msgstr ""
+
+#: admin/woocommerce-settings-tab.php:182
+msgid "Price code"
+msgstr ""
+
+#: admin/woocommerce-settings-tab.php:186
+msgid "Price code (use STANDARD if no specific price code is defined)"
+msgstr ""
+
+#: admin/woocommerce-settings-tab.php:195
+msgid "Clictill Web Services"
+msgstr ""
+
+#: admin/woocommerce-settings-tab.php:197
+msgid ""
+"The following web services are available and need to be activated by "
+"entering the required token. Check and/or regenerate the tokens here: <a "
+"href=\"https://clic-till.com/paramApp/webservice_tokens/index\" target="
+"\"_blank\">https://clic-till.com/paramApp/webservice_tokens/index</a>."
+msgstr ""
+
+#: admin/woocommerce-settings-tab.php:201
+#: admin/woocommerce-settings-tab.php:204
+msgid "Client token"
+msgstr ""
+
+#: admin/woocommerce-settings-tab.php:208
+#: admin/woocommerce-settings-tab.php:211
+msgid "Article token"
+msgstr ""
+
+#: admin/woocommerce-settings-tab.php:216
+msgid "Manage stock"
+msgstr ""
+
+#: admin/woocommerce-settings-tab.php:218
+msgid "Synchronize stock information"
+msgstr ""
+
+#: admin/woocommerce-settings-tab.php:222
+#: admin/woocommerce-settings-tab.php:225
+msgid "Order token"
+msgstr ""
+
+#: admin/woocommerce-settings-tab.php:229
+#: admin/woocommerce-settings-tab.php:232
+msgid "Receipt token"
+msgstr ""
+
+#: admin/woocommerce-settings-tab.php:237
+#: admin/woocommerce-settings-tab.php:240
+msgid "Family token"
+msgstr ""
+
+#: admin/woocommerce-settings-tab.php:244
+#: admin/woocommerce-settings-tab.php:247
+msgid "Tax codes token"
+msgstr ""
+
+#: admin/woocommerce-settings-tab.php:251
+msgid "Manage categories"
+msgstr ""
+
+#: admin/woocommerce-settings-tab.php:253
+msgid "Synchronize category information"
+msgstr ""
+
+#: admin/woocommerce-settings-tab.php:257
+#: admin/woocommerce-settings-tab.php:260
+msgid "Categories token"
+msgstr ""
+
+#: admin/woocommerce-settings-tab.php:264
+msgid "Manage suppliers"
+msgstr ""
+
+#: admin/woocommerce-settings-tab.php:266
+msgid "Synchronize supplier information"
+msgstr ""
+
+#: admin/woocommerce-settings-tab.php:270
+#: admin/woocommerce-settings-tab.php:273
+msgid "Suppliers token"
+msgstr ""
+
+#: admin/woocommerce-settings-tab.php:277
+msgid "Manage brands"
+msgstr ""
+
+#: admin/woocommerce-settings-tab.php:279
+msgid "Synchronize brand information"
+msgstr ""
+
+#: admin/woocommerce-settings-tab.php:283
+#: admin/woocommerce-settings-tab.php:286
+msgid "Brands token"
+msgstr ""
+
+#: admin/woocommerce-settings-tab.php:294
+msgid "Field mapping"
+msgstr ""
+
+#: admin/woocommerce-settings-tab.php:296
+msgid ""
+"The following field mapping links some clictill fields to some WooCommerce "
+"fields. These fields are only synchronized on the initial run."
+msgstr ""
+
+#: admin/woocommerce-settings-tab.php:301
+#: admin/woocommerce-settings-tab.php:428
+msgid "clictill description 1"
+msgstr ""
+
+#: admin/woocommerce-settings-tab.php:302
+#: admin/woocommerce-settings-tab.php:429
+msgid "clictill description 2"
+msgstr ""
+
+#: admin/woocommerce-settings-tab.php:303
+#: admin/woocommerce-settings-tab.php:430
+msgid "clictill description 3"
+msgstr ""
+
+#: admin/woocommerce-settings-tab.php:306
+#: admin/woocommerce-settings-tab.php:310
+msgid "WooCommerce product name"
+msgstr ""
+
+#: admin/woocommerce-settings-tab.php:314
+#: admin/woocommerce-settings-tab.php:318
+msgid "WooCommerce product description"
+msgstr ""
+
+#: admin/woocommerce-settings-tab.php:322
+#: admin/woocommerce-settings-tab.php:326
+msgid "WooCommerce product short description"
+msgstr ""
+
+#: admin/woocommerce-settings-tab.php:335
+msgid "VAT mapping"
+msgstr ""
+
+#: admin/woocommerce-settings-tab.php:337
+msgid ""
+"The following VAT mapping links some clictill fields to some WooCommerce "
+"fields. These fields are only synchronized on the initial run."
+msgstr ""
+
+#: admin/woocommerce-settings-tab.php:346
+#: admin/woocommerce-settings-tab.php:356
+#, php-format
+msgid "%s (Rate: %s %%)"
+msgstr ""
+
+#: admin/woocommerce-settings-tab.php:369
+msgid "Shipping mapping"
+msgstr ""
+
+#: admin/woocommerce-settings-tab.php:371
+msgid ""
+"The following shipping mapping links some Clictill fields to some "
+"WooCommerce fields. These fields are only synchronized on the initial run."
+msgstr ""
+
+#: admin/woocommerce-settings-tab.php:375
+msgid "None (0 %)"
+msgstr ""
+
+#: admin/woocommerce-settings-tab.php:376
+msgid "Shipping 1 (5 %)"
+msgstr ""
+
+#: admin/woocommerce-settings-tab.php:377
+msgid "Shipping 2 (20 %)"
+msgstr ""
+
+#: admin/woocommerce-settings-tab.php:378
+msgid "Shipping 3 (33 %)"
+msgstr ""
+
+#: admin/woocommerce-settings-tab.php:407
+#: admin/woocommerce-settings-tab.php:411
+msgid "WooCommerce order shipping method"
+msgstr ""
+
+#: admin/woocommerce-settings-tab.php:409
+msgid "Chronopost"
+msgstr ""
+
+#: admin/woocommerce-settings-tab.php:417
+#: admin/woocommerce-settings-tab.php:421
+msgid "WooCommerce order status trigger"
+msgstr ""
+
+#: admin/woocommerce-settings-tab.php:419
+msgid "On hold"
+msgstr ""
+
+#: admin/woocommerce-settings-tab.php:419
+msgid "Processing"
+msgstr ""
+
+#: admin/woocommerce-settings-tab.php:419
+msgid "Completed"
+msgstr ""
+
+#: admin/woocommerce-settings-tab.php:425
+#: admin/woocommerce-settings-tab.php:432
+msgid "Clictill order status"
+msgstr ""
+
+#: admin/woocommerce-settings-tab.php:447
+msgid "WooCommerce number of products per batch"
+msgstr ""
+
+#: admin/woocommerce-settings-tab.php:451
+msgid "Reduce this value in case of WooCommerce timeouts"
+msgstr ""
+
+#: admin/woocommerce-settings-tab.php:455
+msgid "Behaviour"
+msgstr ""
+
+#: admin/woocommerce-settings-tab.php:457
+msgid ""
+"The following field mapping links some WooCommerce events to some Clictill "
+"statuses."
+msgstr ""
+
+#: admin/woocommerce-status-tab.php:33
+msgid "Clictill tokens"
+msgstr ""
+
+#: admin/woocommerce-status-tab.php:34
+msgid "Article token:"
+msgstr ""
+
+#: admin/woocommerce-status-tab.php:35
+msgid "Client token:"
+msgstr ""
+
+#: admin/woocommerce-status-tab.php:36
+msgid "Clictill products"
+msgstr ""
+
+#: admin/woocommerce-status-tab.php:37
+msgid "Last sync:"
+msgstr ""
+
+#: admin/woocommerce-status-tab.php:38
+msgid "This table lists the Clictill products."
+msgstr ""
+
+#: admin/woocommerce-status-tab.php:40 admin/woocommerce-status-tab.php:68
+msgid "Response:"
+msgstr ""
+
+#: admin/woocommerce-status-tab.php:41
+msgid "Number of articles in the clictill database:"
+msgstr ""
+
+#: admin/woocommerce-status-tab.php:46
+msgid "Product reference"
+msgstr ""
+
+#: admin/woocommerce-status-tab.php:47
+msgid "Clictill Product ID"
+msgstr ""
+
+#: admin/woocommerce-status-tab.php:48
+msgid "WooCommerce Product ID"
+msgstr ""
+
+#: admin/woocommerce-status-tab.php:49
+msgid "Inventory"
+msgstr ""
+
+#: admin/woocommerce-status-tab.php:50
+msgid "Date created"
+msgstr ""
+
+#: admin/woocommerce-status-tab.php:51
+msgid "Last synced"
+msgstr ""
+
+#: admin/woocommerce-status-tab.php:65
+msgid "Clictill customers"
+msgstr ""
+
+#: admin/woocommerce-status-tab.php:66
+msgid "This table lists the Clictill customers."
+msgstr ""
+
+#: admin/woocommerce-status-tab.php:69
+msgid "Number of customers in the clictill database:"
+msgstr ""
+
+#: admin/woocommerce-status-tab.php:74
+msgid "Customer name"
+msgstr ""
+
+#: admin/woocommerce-status-tab.php:75
+msgid "Customer first-name"
+msgstr ""
+
+#: admin/woocommerce-status-tab.php:76
+msgid "Clictill Customer ID"
+msgstr ""
+
+#: admin/woocommerce-status-tab.php:77
+msgid "WooCommerce customer ID"
+msgstr ""
+
+#: classes/clictill-receipt.php:33
+#, php-format
+msgid "processing receipt: %s"
+msgstr ""
+
+#: classes/clictill-receipt.php:34
+#, php-format
+msgid "Receipt %s. For customer CT/%s, WC/%s"
+msgstr ""
+
+#: config.php:25
+msgid "Every minute"
+msgstr ""
+
+#: config.php:29
+msgid "Once hourly"
+msgstr ""
+
+#: config.php:33
+msgid "Every three hours"
+msgstr ""
+
+#: config.php:37
+msgid "Every five hours"
+msgstr ""
+
+#: ct4woo.php:83
+msgid "Settings"
+msgstr ""
+
+#: ct4woo.php:156
+#, php-format
+msgid "Order failed: order %s entered failed status."
+msgstr ""
+
+#: ct4woo.php:196
+#, php-format
+msgid "Order refunded: order %s entered refunded status."
+msgstr ""
+
+#: ct4woo.php:201
+#, php-format
+msgid "Order cancelled: order %s entered cancelled status."
+msgstr ""
+
+#: taxonomies/brand.php:17
+msgctxt "taxonomy general name"
+msgid "Brands"
+msgstr ""
+
+#: taxonomies/brand.php:18
+msgctxt "taxonomy singular name"
+msgid "Brand"
+msgstr ""
+
+#: taxonomies/brand.php:19
+msgid "Search brands"
+msgstr ""
+
+#: taxonomies/brand.php:20
+msgid "All brands"
+msgstr ""
+
+#: taxonomies/brand.php:21
+msgid "Edit brand"
+msgstr ""
+
+#: taxonomies/brand.php:22
+msgid "Update brand"
+msgstr ""
+
+#: taxonomies/brand.php:23
+msgid "Add new brand"
+msgstr ""
+
+#: taxonomies/brand.php:24
+msgid "New brand name"
+msgstr ""
+
+#: taxonomies/brand.php:25
+msgid "Brands"
+msgstr ""
+
+#: taxonomies/brand.php:29
+msgid "Brands as imported from Clictill"
+msgstr ""
+
+#: taxonomies/brand.php:35
+msgid "brand"
+msgstr ""
+
+#: taxonomies/supplier.php:17
+msgctxt "taxonomy general name"
+msgid "Suppliers"
+msgstr ""
+
+#: taxonomies/supplier.php:18
+msgctxt "taxonomy singular name"
+msgid "Supplier"
+msgstr ""
+
+#: taxonomies/supplier.php:19
+msgid "Search suppliers"
+msgstr ""
+
+#: taxonomies/supplier.php:20
+msgid "All suppliers"
+msgstr ""
+
+#: taxonomies/supplier.php:21
+msgid "Edit supplier"
+msgstr ""
+
+#: taxonomies/supplier.php:22
+msgid "Update supplier"
+msgstr ""
+
+#: taxonomies/supplier.php:23
+msgid "Add new supplier"
+msgstr ""
+
+#: taxonomies/supplier.php:24
+msgid "New supplier name"
+msgstr ""
+
+#: taxonomies/supplier.php:25
+msgid "Suppliers"
+msgstr ""
+
+#: taxonomies/supplier.php:29
+msgid "Suppliers as imported from Clictill"
+msgstr ""
+
+#: taxonomies/supplier.php:35
+msgid "supplier"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Integration of Clictill for WooCommerce"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://carlconrad.net/wordpress/plugins/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"This plug-in is designed to help you link your Clictill to your WooCommerce "
+"based web shop."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Le Web tranquille"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://lewebtranquille.fr/"
+msgstr ""
